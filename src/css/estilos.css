@@ -10,17 +10,26 @@ body {
     justify-content: center;
 }
 
-.selecao-de-personagem {
+.selecao-de-personagens {
     background-color: blueviolet;
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-.selecao-de-personagem .lista-de-personagem {
+.selecao-de-personagens .lista-de-personagens {
     display: flex;
     background-color: brown;
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+}
+
+.selecao-de-personagens .personagens {
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;
 }
