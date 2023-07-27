@@ -23,7 +23,7 @@ if(window.innerWidth < 450){
 
 function alterarDescricaoPersonagem(personagem) {
     const descricaoPersonagem = document.getElementById('descricao-personagem');
-    descricaoPersonagem.innerText = personagem.getAttribute('data-decription');
+    descricaoPersonagem.innerText = personagem.getAttribute('data-description');
 }
 
 function alterarNomePersonagemSelecionado(personagem) {
