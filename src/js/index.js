@@ -8,7 +8,6 @@ if(window.innerWidth < 450){
 }
         //passo 3 verificar se ja existe um personagem selecionado, se sim, devemos remover a seleçao dele
         removerSelecaoDePersonagem();
-
         personagem.classList.add('selecionado');
         //passo 1 pegar elemento do personagem grande para adicionar as informaçoes nele
         alterarImagemPersonagemSelecionado(personagem);
@@ -16,7 +15,6 @@ if(window.innerWidth < 450){
         alterarNomePersonagemSelecionado(personagem);
         //passo 4 alterar a descriçao do personagem grande 
         alterarDescricaoPersonagem(personagem);
-
     })
 
 })
