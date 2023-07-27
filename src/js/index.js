@@ -38,7 +38,7 @@ function alterarImagemPersonagemSelecionado(personagem) {
     imagemPersonagemGrande.src = '.src/imagens/card-${idPersonagem}.png';
 }
 
-function removerSelecaoDePersonagem() {
+function removerSelecaoDoPersonagem() {
     const personagemSelecionado = document.querySelector('.selecionado');
     personagemSelecionado.classList.remove('selecionado');
 }
