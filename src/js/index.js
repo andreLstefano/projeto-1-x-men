@@ -7,7 +7,8 @@ if(window.innerWidth < 450){
     window.scrollTo({top: 0, behavior: 'smooth'});
 }
         //passo 3 verificar se ja existe um personagem selecionado, se sim, devemos remover a seleçao dele
-        removerSelecaoDePersonagem();
+        removerSelecaoDoPersonagem();
+
         personagem.classList.add('selecionado');
         //passo 1 pegar elemento do personagem grande para adicionar as informaçoes nele
         alterarImagemPersonagemSelecionado(personagem);
