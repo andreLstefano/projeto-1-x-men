@@ -7,21 +7,14 @@ if(window.innerWidth < 450){
     window.scrollTo({top:0, behavior: 'smooth'});
 }
 
-// removerSelecaoDoPersonagem();
-
-        //objetuvo 2
-
-        // const personagemSelecionado = document.querySelector('.selecionado');
-        // personagemSelecionado.classList.remove('selecionado');
+        // removerSelecaoDoPersonagem();
         personagem.classList.add('selecionado');
         
-        // removerSelecaoDoPersonagem(personagemSelecionado);
         //passo 1
         alterarImagemPersonagemSelecionado(personagem);
-
         //passo 3
         alterarNomePersonagemSelecionado(personagem);
-    //passo 4
+        //passo 4
         alterarDescricaoPersonagem(personagem);
 
     })
